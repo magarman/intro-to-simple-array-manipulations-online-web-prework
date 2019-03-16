@@ -8,6 +8,7 @@ end
 
 def using_pop(array)
   ["Baby One More Time", "Smells Like Teen Spirit", "Missing", "Walking On The Sun", "Hard Knock Life", "Losing My Religion"].pop
+  using_pop.array
 end
 
 def pop_with_args(array)
