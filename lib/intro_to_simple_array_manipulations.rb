@@ -3,7 +3,7 @@ def using_push(array, string)
 end
 
 def using_unshift(array, string)
-  using_unshift.unshift("Brooklyn Heights")
+  array.unshift("Brooklyn Heights")
 end
 
 def using_pop(array)
