@@ -19,7 +19,7 @@ def using_shift(array)
 end
 
 def shift_with_args(array)
-
+  ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
 end
 
 def using_concat(array1, array2)
