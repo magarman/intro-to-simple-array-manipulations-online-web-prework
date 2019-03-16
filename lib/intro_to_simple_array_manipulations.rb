@@ -1,5 +1,5 @@
 def using_push(array, string)
-  ["Benin", "Carpe Verde", "Gambia", "Liberia", "Mali"].push("Niger")
+  array.push("Niger")
 end
 
 def using_unshift(array, string)
@@ -11,15 +11,15 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane"].pop(2)
+  array.pop(2)
 end
 
 def using_shift(array)
-  ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"].shift
+  array.shift
 end
 
 def shift_with_args(array)
-  ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"].shift(2)
+  array.shift(2)
 end
 
 def using_concat(array1, array2)
